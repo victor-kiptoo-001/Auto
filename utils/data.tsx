@@ -70,15 +70,15 @@ export const singleUser = {
 }
 
 export const createOrder = {
-    "streetAddress": "123 South Streett",
-    "city": "Johannesburgg",
-    "name": "Itumeleng Tsoelaa",
-    "suburb": "Braamfonteinn",
-    "province": "Free Statee",
-    "phone": "07223451233",
+    "streetAddress": "123 Ruaraka",
+    "city": "Nairobi",
+    "name": "John James",
+    "suburb": "Ruaraka",
+    "county": "Nairobi",
+    "phone": "0712345678",
     "email": "email@gmail.comm",
-    "message": "Give it to the neighborr",
-    "paymentMethod": "Paypal",
+    "message": "Give it to the neighbor",
+    "paymentMethod": "MPESA",
     "OrderedItems": {
         "shippingPrice": [
             {
@@ -91,9 +91,9 @@ export const createOrder = {
         "items": [
             {
                 "attributes": {
-                    "title": "OPEL CORSA D 1.4I 2007-2009 OIL PUMP",
+                    "title": "KENYA OIL.4I 2007-2009 OIL PUMP",
                     "description": "We have done our utmost to identify vehicle compatibility. To be certain this part fits your vehicle, please use the contact us form and supply us with your VIN/ Chassis number. This is a 17 digit unique number and is found either on your vehicle license disk or on the interior door label. There is no guarantee that this item will fit your vehicle without a compatibility check, as there are variations between models.",
-                    "brand": "OPEL ",
+                    "brand": "OIL ",
                     "price": 4370,
                     "category": "OIL PUMP",
                     "createdAt": "2022-10-26T13:23:34.725Z",
@@ -103,8 +103,8 @@ export const createOrder = {
                             {
                                 "id": 14,
                                 "attributes": {
-                                    "name": "opel corsa d  1 4i 2007-2009 oil pump.jpg",
-                                    "alternativeText": "opel corsa d  1 4i 2007-2009 oil pump.jpg",
+                                    "name": "KENYA OIL  1 4i 2007-2009 oil pump.jpg",
+                                    "alternativeText": "KENYA OIL  1 4i 2007-2009 oil pump.jpg",
                                     "caption": "opel corsa d  1 4i 2007-2009 oil pump.jpg",
                                     "width": 800,
                                     "height": 533,
@@ -1219,7 +1219,7 @@ export const orders = [
             "createdAt": "2022-11-03T11:39:37.421Z",
             "updatedAt": "2022-11-03T11:39:37.421Z",
             "publishedAt": "2022-11-03T11:39:37.418Z",
-            "city": "Johannesburgg",
+            "city": "Nairobi",
             "user_id": 1
         }
     }

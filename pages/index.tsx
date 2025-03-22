@@ -37,7 +37,7 @@ const Home: NextPage = () => {
             <main>
                 <section className='container mx-auto py-4 px-4 lg:py-24'>
                     <h1 className='uppercase text-red-600 text-2xl font-bold'>Who we are</h1>
-                    <p className='lg:py-6 py-2'>At SUBESH AUTO SERVICE, our main goal is to establish trust with our Customers. It is important in the automotive industry because of the complexity of car care. Our goal is to not only assist our Customers, but also educate them by answering their questions. At Subesh Auto Service, we provide fast and efficient as well as reliable services and repairs to the Customers vehicle.</p>
+                    <p className='lg:py-6 py-2'>At DRIVESYNC AUTO SERVICE, our main goal is to establish trust with our Customers. It is important in the automotive industry because of the complexity of car care. Our goal is to not only assist our Customers, but also educate them by answering their questions. At Subesh Auto Service, we provide fast and efficient as well as reliable services and repairs to the Customers vehicle.</p>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-4 lg:gap-10'>
                         {whoWeAre.map((item, index) => (<div key={index} className={`flex flex-col ${index === 2 && 'md:col-span-2 lg:col-span-1 mt-4 lg:mt-0'} items-center justify-center p-10 ${index % 2 === 0 && 'border-2 border-brand text-brand'} ${index % 2 !== 0 && 'bg-red-600 text-white'}`}>
                             <Image src={`/images/${item.icon}`} color="white " alt='Icon' className={index !== 1 ? 'icon-red' : ''} height={50} width={50}/>

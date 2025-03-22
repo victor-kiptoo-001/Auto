@@ -21,8 +21,8 @@ export const carImages = [
 ]
 
 export const storeInfo = {
-    name: 'Subesh Auto Services',
-    phone: '083 209 2668',
-    location: 'Hamberg, Roodepoort',
-    fullLocation: 'Eeufees Avenue, Hamberg Roodepoort'
+    name: 'DriveSync Auto Services',
+    phone: '0796 681 150',
+    location: 'Nairobi, Kenya',
+    fullLocation: 'Ruaraka, Nairobi '
 }
